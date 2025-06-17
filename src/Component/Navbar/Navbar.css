@@ -1,0 +1,160 @@
+.navbar{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:20px 170px;
+    list-style-type: none;
+   
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-connect{
+
+    padding: 10px 30px;
+    border-radius: 40px;
+    background: linear-gradient(270deg, #Df8908 10%, #B415FF 100%);
+    font-size:20px;
+    cursor:pointer;
+    transition: 0.5s;
+    color: white;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+    border-radius: 19px;
+    height: 25px;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-open{
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 0;
+}
+.nav-mob-close{
+    display: none;
+        
+}
+.nav-mob-open{
+    display: none;
+}
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+.navbar.light .anchor-link {
+    color: black;
+}
+.navbar.dark .anchor-link {
+    color: white;
+}
+.theme-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px none currentColor;
+    color: inherit;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.light .theme-button {
+    background: none;
+    color: black;
+    border: none;
+}
+
+@media(max-width:715px){
+    .navbar{
+        margin: 20px 50px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 20px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: rgb(145, 130, 103);
+        width: 50%;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        gap: 20px;
+        font-size: 20px;
+        padding-left: 80px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .like-section {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .like-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .like-button img {
+        width: 34px;
+        height: 34px;
+        margin-right: 10px;
+    }
+    .like-text {
+        margin-right: 20px;
+        gap: 10px;
+        font-weight: 300;
+    }
+}
