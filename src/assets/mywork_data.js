@@ -10,42 +10,42 @@ const mywork_data = [
         w_no: 1,
         w_name: "web design",
         w_img: project1_img,
-        repo_url: 'https://github.com/phage727/repo1',
+        repo_url: 'https://github.com/phage727',
         likes: 0
     },
     {
         w_no: 2,
         w_name: "web design",
         w_img: project2_img,
-        repo_url: 'https://github.com/phage727/repo2',
+        repo_url: 'https://github.com/phage727',
         likes: 0
     },
     {
         w_no: 3,
         w_name: "web design",
         w_img: project3_img,
-        repo_url: 'https://github.com/phage727/repo3',
+        repo_url: 'https://github.com/phage727',
         likes: 0
     },
     {
         w_no: 4,
         w_name: "web design",
         w_img: project4_img,
-        repo_url: 'https://github.com/phage727/repo4',
+        repo_url: 'https://github.com/phage727',
         likes: 0
     },
     {
         w_no: 5,
         w_name: "web design",
         w_img: project5_img,
-        repo_url: 'https://github.com/phage727/repo5',
+        repo_url: 'https://github.com/phage727',
         likes: 0
     },
     {
         w_no: 6,
         w_name: "web design",
         w_img: project6_img,
-        repo_url: 'https://github.com/phage727/repo6',
+        repo_url: 'https://github.com/phage727',
         likes: 0
     }
 ];
