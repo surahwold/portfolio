@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import picdev from '../../assets/picdev.jpg'
-import myself from '../../assets/myself.jpg'
+import Myself from '../../assets/Myself.jpg'
 
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className='about-sections'>
           <div className='about-left'>
-             <img src={myself} alt='' className='picdev'/>
+             <img src={Myself} alt='' className='picdev'/>
             </div>
             <div className='about-right'>
               <div className="about-para">
