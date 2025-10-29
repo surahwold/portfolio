@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Lets talk</h1>
-                <p>I'm currently available to take on new projects. With experstise in Frontend. I am open to remote work and flexible scheduling to accommodate your requirements.</p>
+                <p>I’m currently <b>available for new projects</b> and always excited to bring fresh ideas to life. With strong expertise in <b>Frontend Development</b>, along with a passion for <b>UI/UX and graphic design</b>, I create engaging, user-centered digital experiences. I’m open to <b>remote work</b> and offer <b>flexible scheduling</b> to fit your needs — let’s build something amazing together!</p>
                 <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mailicon} alt='' className='mailicon'/>

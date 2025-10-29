@@ -9,8 +9,8 @@ import light from '../../assets/light.png';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
-    const [likes, setLikes] = useState(0); // State to track the number of likes
-    const [theme, setTheme] = useState("light"); // State to track the theme
+    const [likes, setLikes] = useState(0); 
+    const [theme, setTheme] = useState("light"); 
     const menuReF = useRef();
 
     const openMenu = () => {
@@ -51,17 +51,12 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link className={`anchor-link ${theme}`} to='/portfolio' onClick={() => setMenu("portfolio")}>
-                        Portfolio
+                        Projects
                     </Link>
                 </li>
                 <li>
                     <Link className={`anchor-link ${theme}`} to='/contact' onClick={() => setMenu("contact")}>
                         Contact
-                    </Link>
-                </li>
-                <li>
-                    <Link className={`anchor-link ${theme}`} to='/footer' onClick={() => setMenu("footer")}>
-                        Footer
                     </Link>
                 </li>
             </ul>

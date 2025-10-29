@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import picdev from '../../assets/picdev.jpg'
+import myself from '../../assets/myself.jpg'
 
 
 const About = () => {
@@ -11,16 +12,16 @@ const About = () => {
         </div>
         <div className='about-sections'>
           <div className='about-left'>
-             <img src={picdev} alt='' className='picdev'/>
+             <img src={myself} alt='' className='picdev'/>
             </div>
             <div className='about-right'>
               <div className="about-para">
-                <p>I am an experienced Frontend Developer with 1+ years of experience. Thoughout my career, I have had the Privilage of collaborating with some organazations as an itern, contribunting to their success and growth. </p>
+                <p> I am an experienced Frontend Developer with over 1 year of experience. Throughout my career, I’ve had the privilege of collaborating with several organizations as an intern, contributing to their success and growth. In addition to my frontend expertise, I possess strong skills in UI/UX design and graphic design, enabling me to create visually appealing, user-centered, and engaging digital experiences.</p>
                 <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
               </div>
               <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} /></div>
-                <div className="about-skill"><p>React.js</p><hr style={{width:"70%"}} /></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}} /></div>
+                <div className="about-skill"><p>React.js</p><hr style={{width:"50%"}} /></div>
                 <div className="about-skill"><p>Javascript</p><hr style={{width:"60%"}} /></div>
               </div>
             </div>

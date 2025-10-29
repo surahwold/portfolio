@@ -9,7 +9,7 @@ const Footer = () => {
          <div className='footer-top'>
            <div className='footer-top-left'>
             <img src={footer} alt=''/>
-            <p>I am a frontend developer from Ethiopia with 1 year of experience. I have hands-on experience with React, And I am proficient in HTML, CSS, and JavaScript. I have worked on several projects, I am a strong team player with excellent problem-solving skills, and I am committed to continuous learning and professional growth. I recently completed a certification in advanced JavaScript and regularly attend local developer meetups to stay updated on industry trends.
+            <p>I am a frontend developer from Ethiopia with 1 year of experience. I have hands-on experience with React, And I am proficient in HTML, CSS, and JavaScript. I have worked on several projects, I am a strong team player with excellent problem-solving skills, and I am committed to continuous learning and professional growth. I also regularly attend local developer meetups to stay updated on industry trends.
             </p>
            </div>
            <div className="footer-top-right">
