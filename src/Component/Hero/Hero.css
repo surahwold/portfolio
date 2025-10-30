@@ -62,7 +62,7 @@ transform: scale(1.05);
     border-color: #B415FF;
 }
 @keyframes rainbowBorder {
-    0% { border-color: rgb(187, 47, 47); }
+    11% { border-color: rgb(187, 47, 47); }
     9% { border-color: #da6464;}
     16% { border-color: orange; }
     33% { border-color: yellow; }
